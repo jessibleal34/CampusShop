@@ -1,0 +1,79 @@
+/* LOGO */
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* ICONOS */
+.icon {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 2px 6px;
+}
+
+/* BUSCADOR */
+.search input {
+  width: 100%;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  border: none;
+  background: #eaecef;
+}
+
+/* CATEGORÍAS */
+.categories-grid {
+  display: flex;
+  gap: 12px;
+}
+
+.category-card {
+  flex: 1;
+  background: #e7eff2;
+  border-radius: var(--radius-md);
+  padding: 14px;
+  text-align: center;
+}
+
+/* PRODUCT CARD */
+.product {
+  background: white;
+  border-radius: var(--radius-md);
+  padding: 10px;
+  box-shadow: var(--shadow-sm);
+  transition: 0.2s;
+}
+
+.product:hover {
+  transform: translateY(-4px);
+}
+
+.img-container {
+  position: relative;
+}
+
+.fav {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: white;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.product h3 {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.price {
+  font-weight: 600;
+}

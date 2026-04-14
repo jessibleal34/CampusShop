@@ -1,0 +1,28 @@
+.container {
+  width: 92%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
+  padding: 16px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* GRID GENERAL */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+/* SECCIONES */
+section {
+  margin-top: 20px;
+}
