@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusShop</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="header-cart">
+        <div class="header-cart__container">
+            <i data-lucide="arrow-left" class="icon"></i>
+            <h1 class="header-cart__title">Mi Carrito (3)</h1>
+            <div style="width: 24px;"></div> </div>
+    </header>
+
+    <main class="cart-content">
+        <article class="cart-item">
+            <div class="cart-item__image-container">
+                <img src="taza.jpg" alt="Taza de Cerámica" class="cart-item__img">
+            </div>
+            <div class="cart-item__details">
+                <div class="cart-item__header">
+                    <h3 class="cart-item__name">Taza de Cerámica Campus</h3>
+                    <button class="btn--delete"><i data-lucide="trash-2"></i></button>
+                </div>
+                <p class="cart-item__ref">Ref: #SKU12345</p>
+                <div class="cart-item__footer">
+                    <div class="quantity-selector">
+                        <button class="btn--qty">-</button>
+                        <span class="qty-number">1</span>
+                        <button class="btn--qty">+</button>
+                    </div>
+                    <div class="cart-item__price-info">
+                        <span class="price-value">$12.50</span>
+                        <span class="price-label">subtotal</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        </main>
+
+    <footer class="checkout-summary">
+        <div class="summary-line">
+            <span>Subtotal</span>
+            <span class="summary-value">$96.49</span>
+        </div>
+        <div class="summary-line">
+            <span>Impuestos</span>
+            <span class="summary-value">$18.33</span>
+        </div>
+        <div class="summary-line summary-line--total">
+            <span>Total</span>
+            <span class="summary-value">$114.82</span>
+        </div>
+        <button class="btn--checkout">Proceder al Pago</button>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
+<body>
