@@ -132,14 +132,14 @@
 
 .card__image {
     height: 180px;
-    background-color:var(--badge-offer);
+    background-color:white;
     margin: 10px;
     border-radius: 10px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;height: 180px;
-    background-color: var(--badge-offer); /* Fondo por defecto si no carga la imagen */
+    background-color: white; /* Fondo por defecto si no carga la imagen */
     margin: 10px;
     border-radius: 10px;
    
@@ -164,9 +164,9 @@
 
 /* Colores de prueba para las imágenes */
 .card__image--dark { background-color: #263238; }
-.card__image--peach { background-color: #f9f3f9; }
-.card__image--peach-light { background-color: #f9f1fa; }
-.card__image--yellow-light { background-color: #fcf5fd; }
+.card__image--peach { background-color: white; }
+.card__image--peach-light { background-color: white; }
+.card__image--yellow-light { background-color: white; }
 
 .card__content {
     padding: 10px 15px 15px;
@@ -198,7 +198,7 @@
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 0.7rem;
-    color: rgb(212, 31, 31);
+    color: rgb(4, 65, 12);
     font-weight: bold;
 }
 
