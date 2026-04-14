@@ -140,3 +140,21 @@ section {
     padding: 12px 0;
     border-top: 1px solid #eee;
 }
+.product-detail {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.product-gallery {
+    padding: 15px;
+}
+
+.product-info {
+    padding: 0 20px;
+}
+
+.related-products {
+    padding: 20px;
+    margin-top: 30px;
+}
