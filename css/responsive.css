@@ -33,3 +33,9 @@
         transform: translateX(-50%);
     }
 }
+@media (min-width: 600px) {
+    .footer-action {
+        display: flex;
+        justify-content: center;
+    }
+}
