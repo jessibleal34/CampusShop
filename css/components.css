@@ -647,3 +647,72 @@
     font-size: 1rem;
     cursor: pointer;
 }
+.order-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    border: 1px solid #edf0f2;
+}
+
+.order-card__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.order-number {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.order-date {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.order-total {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.order-card__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos de los Badges */
+.badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.badge svg { width: 14px; height: 14px; }
+
+.badge--delivered { background: var(--status-green); color: var(--status-green-text); }
+.badge--shipping { background: var(--status-yellow); color: var(--status-yellow-text); }
+.badge--canceled { background: var(--status-red); color: var(--status-red-text); }
+
+/* Botón Ver Detalle */
+.btn-detail {
+    background: #f0f2f4;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #4a4d50;
+    cursor: pointer;
+}
