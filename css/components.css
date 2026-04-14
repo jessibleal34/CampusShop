@@ -131,20 +131,41 @@
 
 .card__image {
     height: 180px;
-    background-color: var(--card-bg);
+    background-color: purple;
     margin: 10px;
     border-radius: 10px;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;height: 180px;
+    background-color: rgb(246, 192, 246); /* Fondo por defecto si no carga la imagen */
+    margin: 10px;
+    border-radius: 10px;
+   
+    
+    /* ¡IMPORTANTE! */
+    overflow: hidden; /* Esto hace que la imagen respete los bordes redondeados del div */
+}
+
+/* Nueva regla para la imagen misma */
+.card__img {
+    width: 100%;       /* Ocupa todo el ancho del contenedor */
+    height: 80%;      /* Ocupa todo el alto del contenedor */
+
+    /* ¡MUY IMPORTANTE! */
+    object-fit: contain; /* Ajusta la imagen para llenar el espacio sin estirarse. 
+                          Puede recortar un poco los lados si la proporción es distinta. */
+    
+    object-position: center; /* Centra la imagen dentro del recorte */
+  
+
 }
 
 /* Colores de prueba para las imágenes */
 .card__image--dark { background-color: #263238; }
-.card__image--peach { background-color: #ffe0b2; }
-.card__image--peach-light { background-color: #ffccbc; }
-.card__image--yellow-light { background-color: #fff9c4; }
+.card__image--peach { background-color: #eeaaf2; }
+.card__image--peach-light { background-color: #f1c8fb; }
+.card__image--yellow-light { background-color: #f1c4ff; }
 
 .card__content {
     padding: 10px 15px 15px;
