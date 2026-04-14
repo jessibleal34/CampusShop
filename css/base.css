@@ -33,3 +33,19 @@ img {
   width: 100%;
   display: block;
 }
+:root {
+    --bg-light: #f9f9f9;
+    --white: #ffffff;
+    --primary-dark: #1a4327;
+    --text-main: #333333;
+    --text-muted: #999999;
+    --red-delete: #e63946;
+    --gray-bg: #f1f1f1;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    margin: 0;
+}

@@ -203,3 +203,130 @@
 
 .badge--offer { background-color: var(--badge-offer); }
 .badge--stock { background-color: var(--badge-stock); }
+/* Card de Producto */
+.cart-item {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.cart-item__image-container {
+    width: 90px;
+    height: 90px;
+    background: var(--gray-bg);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cart-item__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart-item__details {
+    flex: 1;
+}
+
+.cart-item__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-item__name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    max-width: 80%;
+}
+
+.cart-item__ref {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin: 5px 0 10px;
+}
+
+/* Selectores y Botones */
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    background: var(--gray-bg);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.btn--qty {
+    border: none;
+    background: none;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.qty-number {
+    padding: 0 10px;
+    font-size: 0.9rem;
+}
+
+.btn--delete {
+    background: none;
+    border: none;
+    color: var(--red-delete);
+    cursor: pointer;
+}
+
+.btn--delete svg { width: 18px; }
+
+/* Precios */
+.cart-item__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cart-item__price-info {
+    text-align: right;
+}
+
+.price-value {
+    display: block;
+    font-weight: 700;
+}
+
+.price-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Footer Summary */
+.summary-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    color: var(--text-muted);
+}
+
+.summary-line--total {
+    color: var(--text-main);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.btn--checkout {
+    width: 100%;
+    background: var(--primary-dark);
+    color: var(--white);
+    border: none;
+    padding: 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+}

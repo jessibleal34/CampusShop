@@ -26,3 +26,10 @@
         grid-template-columns: 1fr;
     }
 }
+@media (min-width: 600px) {
+    .checkout-summary {
+        max-width: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
