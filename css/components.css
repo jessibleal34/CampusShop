@@ -525,3 +525,68 @@
     color: var(--primary-green);
     font-weight: 700;
 }
+/* Galería */
+.product-gallery__main {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: #f0f0f0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.product-gallery__main img {
+    width: 100%; height: 100%; object-fit: cover;
+}
+
+/* Info */
+.product-info__title { font-size: 1.6rem; margin: 15px 0 5px; font-weight: 700; }
+.product-info__price { font-size: 1.4rem; font-weight: 700; display: block; margin-bottom: 15px; }
+.product-info__description { font-size: 0.9rem; color: var(--text-muted); line-height: 1.5; }
+
+/* Selector Tallas */
+.size-selector { margin: 20px 0; }
+.size-selector__label { display: block; font-size: 0.8rem; font-weight: 600; margin-bottom: 10px; }
+.size-selector__options { display: flex; gap: 10px; }
+
+.btn-size {
+    width: 45px; height: 40px;
+    border: 1px solid var(--border-color);
+    background: var(--white);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-size--active {
+    border: 2px solid var(--primary-dark);
+    background: #f0f4f4;
+}
+
+/* Botón (Ajustado al color de este mockup) */
+.btn--add-to-cart {
+    background: var(--primary-dark);
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(50, 75, 76, 0.3);
+}
+
+/* Mini Cards Relacionados */
+.related-products__grid {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto; /* Permite scroll horizontal si hay muchos */
+    padding-bottom: 10px;
+}
+
+.mini-card {
+    min-width: 140px;
+}
+
+.mini-card__img {
+    background: #f0f0f0;
+    border-radius: 12px;
+    height: 140px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.mini-card h4 { font-size: 0.8rem; margin-bottom: 4px; }
+.mini-card span { font-size: 0.8rem; font-weight: 700; }
