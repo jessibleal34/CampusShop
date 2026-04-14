@@ -9,3 +9,20 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+/* Para pantallas más grandes que un móvil estándar */
+@media (min-width: 768px) {
+    .catalog__grid {
+        grid-template-columns: repeat(2, 2fr);
+    }
+    
+    .header__container, .filters__container, .catalog {
+        max-width: 900px;
+    }
+}
+
+/* Para pantallas muy pequeñas */
+@media (max-width: 400px) {
+    .catalog__grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusShop</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<header class="header">
+  <div class="container nav">
+    <span class="icon">☰</span>
+    <h1 class="logo">Catalogo</h1>
+    <span class="icon">🛒<small class="badge">3</small></span>
+  </div>
+</header>
+<main class="catalog">
+        <div class="catalog__grid">
+            <article class="card">
+                <div class="card__image card__image--dark">
+                    <span class="badge badge--offer">Oferta</span>
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Sudadera Clásica</h3>
+                    <div class="card__footer">
+                        <span class="card__price">$39.99</span>
+                        <button class="btn btn--cart"><i data-lucide="shopping-cart"></i></button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__image card__image--peach">
+                    <span class="badge badge--stock">Poco Stock</span>
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Camiseta Orgánica</h3>
+                    <div class="card__footer">
+                        <span class="card__price">$24.99</span>
+                        <button class="btn btn--cart"><i data-lucide="shopping-cart"></i></button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__image card__image--peach-light"></div>
+                <div class="card__content">
+                    <h3 class="card__title">Gorra Deportiva</h3>
+                    <div class="card__footer">
+                        <span class="card__price">$19.99</span>
+                        <button class="btn btn--cart"><i data-lucide="shopping-cart"></i></button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__image card__image--yellow-light">
+                    <span class="badge badge--stock">Poco Stock</span>
+                </div>
+                <div class="card__content">
+                    <h3 class="card__title">Mochila Resistente</h3>
+                    <div class="card__footer">
+                        <span class="card__price">$45.00</span>
+                        <button class="btn btn--cart"><i data-lucide="shopping-cart"></i></button>
+                    </div>
+                </div>
+            </article>
+
+            </div>
+    </main>
+    <script>
+      lucide.createIcons();
+    </script>
+</body>
+</html>
