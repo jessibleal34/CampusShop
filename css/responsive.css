@@ -53,3 +53,17 @@
         height: 75vh;
     }
 }
+/* Usamos el mismo estilo de la Bottom Nav que creamos para el Perfil */
+.bottom-nav {
+    /* ... (código anterior) ... */
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+/* El item activo ahora tiene un fondo redondeado suave como en la imagen */
+.bottom-nav__item--active {
+    background: #e8edea;
+    border-radius: 20px;
+    padding: 8px 12px;
+    color: var(--primary-green);
+}

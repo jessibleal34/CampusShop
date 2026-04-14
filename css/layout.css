@@ -180,3 +180,8 @@ section {
     border-top: 1px solid #eee;
     box-sizing: border-box;
 }
+.orders-list {
+    padding: 15px;
+    max-width: 500px;
+    margin: 0 auto 80px;
+}
