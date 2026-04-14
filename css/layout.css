@@ -158,3 +158,25 @@ section {
     padding: 20px;
     margin-top: 30px;
 }
+.empty-state {
+    height: 70vh; /* Centrado vertical aproximado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.empty-state__content {
+    max-width: 320px;
+}
+
+.footer-action {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: var(--white);
+    border-top: 1px solid #eee;
+    box-sizing: border-box;
+}
