@@ -50,10 +50,13 @@ section {
 }
 
 .catalog__grid {
+   .catalog__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr; /* 2 columnas iguales */
     gap: 15px;
-}
+    padding: 15px;
+    max-width: 500px; /* Limita el ancho para que parezca celular en PC */
+    margin: 0 auto;   /* Centra todo */
 .header-cart {
     background: var(--white);
     padding: 15px;

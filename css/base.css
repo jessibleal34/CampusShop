@@ -81,3 +81,17 @@ body {
     margin: 0;
     color: var(--text-main);
 }
+:root {
+    --bg-light: #f4f7f6;
+    --white: #ffffff;
+    --text-main: #1a1c1e;
+    --text-muted: #8e9193;
+    --primary-green: #1a4327;
+    /* Colores de estados */
+    --status-green: #dcf5e7;
+    --status-green-text: #1b874b;
+    --status-yellow: #fff4d8;
+    --status-yellow-text: #b38600;
+    --status-red: #ffeaea;
+    --status-red-text: #d93025;
+}
