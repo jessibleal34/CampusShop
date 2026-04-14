@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusShop</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header class="header-simple">
+        <div class="header-simple__container">
+            <i data-lucide="arrow-left" class="icon"></i>
+            <h1 class="header-simple__title">Tu Carrito</h1>
+            <div style="width: 24px;"></div>
+        </div>
+    </header>
+
+    <main class="empty-state">
+        <div class="empty-state__content">
+            <div class="empty-state__icon-container">
+                <i data-lucide="shopping-cart" class="icon-cart-off"></i>
+                <div class="icon-slash"></div>
+            </div>
+
+            <h2 class="empty-state__title">Tu carrito está vacío :(</h2>
+            <p class="empty-state__text">
+                Parece que aún no has añadido nada. ¡Explora nuestros productos!
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer-action">
+        <button class="btn-primary-full">Explorar Catálogo</button>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
