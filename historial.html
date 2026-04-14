@@ -1,1 +1,97 @@
-va
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusShop</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header class="header-simple">
+        <div class="header-simple__container">
+            <i data-lucide="arrow-left" class="icon"></i>
+            <h1 class="header-simple__title">Historial de Pedidos</h1>
+            <div style="width: 24px;"></div>
+        </div>
+    </header>
+
+    <main class="orders-list">
+        <article class="order-card">
+            <div class="order-card__main">
+                <div class="order-card__info">
+                    <h3 class="order-number">Orden #12345</h3>
+                    <span class="order-date">15 Oct, 2023</span>
+                </div>
+                <span class="order-total">$125.50</span>
+            </div>
+            <div class="order-card__actions">
+                <span class="badge badge--delivered">
+                    <i data-lucide="check-circle"></i> Entregado
+                </span>
+                <button class="btn-detail">Ver detalle <i data-lucide="chevron-right"></i></button>
+            </div>
+        </article>
+
+        <article class="order-card">
+            <div class="order-card__main">
+                <div class="order-card__info">
+                    <h3 class="order-number">Orden #12344</h3>
+                    <span class="order-date">12 Oct, 2023</span>
+                </div>
+                <span class="order-total">$89.99</span>
+            </div>
+            <div class="order-card__actions">
+                <span class="badge badge--shipping">
+                    <i data-lucide="truck"></i> En camino
+                </span>
+                <button class="btn-detail">Ver detalle <i data-lucide="chevron-right"></i></button>
+            </div>
+        </article>
+
+        <article class="order-card">
+            <div class="order-card__main">
+                <div class="order-card__info">
+                    <h3 class="order-number">Orden #12343</h3>
+                    <span class="order-date">05 Oct, 2023</span>
+                </div>
+                <span class="order-total">$210.00</span>
+            </div>
+            <div class="order-card__actions">
+                <span class="badge badge--canceled">
+                    <i data-lucide="x-circle"></i> Cancelado
+                </span>
+                <button class="btn-detail">Ver detalle <i data-lucide="chevron-right"></i></button>
+            </div>
+        </article>
+    </main>
+
+    <nav class="bottom-nav">
+        <div class="bottom-nav__item">
+            <i data-lucide="home"></i>
+            <span>Inicio</span>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="layout-grid"></i>
+            <span>Categorías</span>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="shopping-cart"></i>
+            <span>Carrito</span>
+        </div>
+        <div class="bottom-nav__item bottom-nav__item--active">
+            <i data-lucide="package"></i>
+            <span>Pedidos</span>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="user"></i>
+            <span>Perfil</span>
+        </div>
+    </nav>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
