@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusShop</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header class="header-cart">
+        <div class="header-cart__container">
+            <i data-lucide="arrow-left" class="icon"></i>
+            <h1 class="header-cart__title">Mi Carrito (3)</h1>
+            <div style="width: 24px;"></div> </div>
+    </header>
+    <body>
+
+    <header class="header-simple">
+        <h1 class="header-simple__title">Perfil</h1>
+    </header>
+
+    <main class="profile-container">
+        <section class="profile-header">
+            <div class="profile-header__avatar">
+                <i data-lucide="user" class="avatar-icon"></i>
+            </div>
+            <h2 class="profile-header__name">Ana Torres</h2>
+            <p class="profile-header__email">ana.torres@email.com</p>
+        </section>
+
+        <section class="profile-menu">
+            <div class="menu-card">
+                <i data-lucide="package" class="menu-card__icon icon--green"></i>
+                <span class="menu-card__label">Mis Pedidos</span>
+            </div>
+            <div class="menu-card">
+                <i data-lucide="map-pin" class="menu-card__icon icon--green"></i>
+                <span class="menu-card__label">Direcciones</span>
+            </div>
+            <div class="menu-card">
+                <i data-lucide="settings" class="menu-card__icon icon--green"></i>
+                <span class="menu-card__label">Configuración</span>
+            </div>
+            <div class="menu-card">
+                <i data-lucide="log-out" class="menu-card__icon icon--red"></i>
+                <span class="menu-card__label text--red">Cerrar Sesión</span>
+            </div>
+        </section>
+    </main>
+
+    <nav class="bottom-nav">
+        <div class="bottom-nav__item">
+            <i data-lucide="home"></i>
+            <span>Inicio</span>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="layout-grid"></i>
+            <span>Categorías</span>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="shopping-cart"></i>
+            <span>Carrito</span>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="heart"></i>
+            <span>Favoritos</span>
+        </div>
+        <div class="bottom-nav__item bottom-nav__item--active">
+            <i data-lucide="user"></i>
+            <span>Perfil</span>
+        </div>
+    </nav>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
