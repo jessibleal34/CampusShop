@@ -1,6 +1,6 @@
 .container {
-  width: 92%;
-  max-width: 1200px;
+  width: 50%;
+  max-width: 500px;
   margin: auto;
 }
 
@@ -13,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* max-width: 500px; */
 }
 
 /* GRID GENERAL */
@@ -39,24 +40,24 @@ section {
     display: flex;
     gap: 10px;
     padding: 10px 20px;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
 .catalog {
     padding: 20px;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
 .catalog__grid {
-   .catalog__grid {
     display: grid;
     grid-template-columns: 1fr 1fr; /* 2 columnas iguales */
     gap: 15px;
     padding: 15px;
     max-width: 500px; /* Limita el ancho para que parezca celular en PC */
     margin: 0 auto;   /* Centra todo */
+}
 .header-cart {
     background: var(--white);
     padding: 15px;

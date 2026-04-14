@@ -128,17 +128,18 @@
     display: flex;
     flex-direction: column;
 }
+/* IMAGENES DE CATALOGO */
 
 .card__image {
     height: 180px;
-    background-color: purple;
+    background-color:var(--badge-offer);
     margin: 10px;
     border-radius: 10px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;height: 180px;
-    background-color: rgb(246, 192, 246); /* Fondo por defecto si no carga la imagen */
+    background-color: var(--badge-offer); /* Fondo por defecto si no carga la imagen */
     margin: 10px;
     border-radius: 10px;
    
@@ -156,16 +157,16 @@
     object-fit: contain; /* Ajusta la imagen para llenar el espacio sin estirarse. 
                           Puede recortar un poco los lados si la proporción es distinta. */
     
-    object-position: center; /* Centra la imagen dentro del recorte */
+    object-position:center; /* Centra la imagen dentro del recorte */
   
 
 }
 
 /* Colores de prueba para las imágenes */
 .card__image--dark { background-color: #263238; }
-.card__image--peach { background-color: #eeaaf2; }
-.card__image--peach-light { background-color: #f1c8fb; }
-.card__image--yellow-light { background-color: #f1c4ff; }
+.card__image--peach { background-color: #f9f3f9; }
+.card__image--peach-light { background-color: #f9f1fa; }
+.card__image--yellow-light { background-color: #fcf5fd; }
 
 .card__content {
     padding: 10px 15px 15px;
@@ -197,7 +198,7 @@
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 0.7rem;
-    color: white;
+    color: rgb(212, 31, 31);
     font-weight: bold;
 }
 
@@ -224,7 +225,7 @@
 .cart-item__img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .cart-item__details {
