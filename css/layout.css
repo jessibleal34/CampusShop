@@ -86,3 +86,28 @@ section {
     border-radius: 25px 25px 0 0;
     box-shadow: 0 -5px 20px rgba(0,0,0,0.05);
 }
+.header-simple__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.checkout-form {
+    padding: 0 20px 120px; /* Espacio inferior para el botón */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-section {
+    margin-bottom: 30px;
+}
+
+.footer-action {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: var(--white);
+    padding: 20px;
+    border-top: 1px solid #eee;
+}

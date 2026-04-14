@@ -11,77 +11,85 @@
 </head>
 
 <body>
-<header class="header">
-  <div class="container nav">
-    <span class="icon">☰</span>
-    <h1 class="logo">Catalogo</h1>
-    <span class="icon">🛒<small class="badge">3</small></span>
-  </div>
-</header>
-
-
-    <div class="categories-grid">
-      <div class="category-card">
-       
-        <p>Talla  </p>
-      </div>
-
-      <div class="category-card">
-        
-        <p>Color</p>
-      </div>
-
-      <div class="category-card">
-       
-        <p>Precio</p>
-      </div>
-    </div>
-  </section>
-  <section class="products">
-    <h2>Novedades para ti</h2>
-
-    <div class="grid">
-
-      <article class="card product">
-        <div class="img-container">
-          <img src="img/chaqueta.jpeg" alt="Chaqueta de cuero">
-          <span class="fav">♡</span>
+<header class="header-simple">
+        <div class="header-simple__container">
+            <i data-lucide="arrow-left" class="icon"></i>
+            <h1 class="header-simple__title">Checkout</h1>
+            <div style="width: 24px;"></div>
         </div>
-        <h3>Chaqueta de Cuero</h3>
-        <p class="price">$120.00</p>
-      </article>
+    </header>
 
-      <article class="card product">
-        <div class="img-container">
-          <img src="img/shirt.jpg" alt="">
-          <span class="fav">♡</span>
-        </div>
-        <h3>Camiseta Gráfica</h3>
-        <p class="price">$35.00</p>
-      </article>
+    <main class="checkout-form">
+        <section class="form-section">
+            <h2 class="section-title">Envío</h2>
+            <div class="form-group">
+                <label>Nombre Completo</label>
+                <input type="text" placeholder="Ingresa tu nombre completo" class="input-text">
+            </div>
+            <div class="form-group">
+                <label>Dirección</label>
+                <input type="text" placeholder="Ingresa tu dirección" class="input-text">
+            </div>
+            <div class="form-group">
+                <label>Ciudad</label>
+                <input type="text" placeholder="Tu ciudad" class="input-text">
+            </div>
+        </section>
 
-      <article class="card product">
-        <div class="img-container">
-          <img src="img/jeans.jpg" alt="">
-          <span class="fav">♡</span>
-        </div>
-        <h3>Jeans Clásicos</h3>
-        <p class="price">$75.00</p>
-      </article>
+        <section class="form-section">
+            <h2 class="section-title">Método de Pago</h2>
+            <div class="payment-methods">
+                <div class="payment-card payment-card--active">
+                    <i data-lucide="credit-card"></i>
+                    <span>Misa</span>
+                </div>
+                <div class="payment-card">
+                    <i data-lucide="credit-card"></i>
+                    <span>MasCard</span>
+                </div>
+                <div class="payment-card">
+                    <i data-lucide="wallet"></i>
+                    <span>Peypal</span>
+                </div>
+            </div>
+        </section>
 
-      <article class="card product">
-        <div class="img-container">
-          <img src="img/shoes.jpg" alt="">
-          <span class="fav">♡</span>
-        </div>
-        <h3>Zapatillas Retro</h3>
-        <p class="price">$90.00</p>
-      </article>
+        <section class="order-summary-box">
+            <h3 class="order-summary-box__title">Resumen de tu Orden</h3>
+            
+            <div class="summary-item">
+                <div class="summary-item__img-box">
+                    <img src="shoes.jpg" alt="Zapatillas">
+                </div>
+                <div class="summary-item__info">
+                    <h4>Zapatillas Deportivas</h4>
+                    <span>Cantidad: 1</span>
+                </div>
+                <span class="summary-item__price">$120.00</span>
+            </div>
 
-    </div>
-  </section>
+            <div class="summary-item">
+                <div class="summary-item__img-box">
+                    <img src="headphones.jpg" alt="Auriculares">
+                </div>
+                <div class="summary-item__info">
+                    <h4>Auriculares Premium</h4>
+                    <span>Cantidad: 1</span>
+                </div>
+                <span class="summary-item__price">$99.50</span>
+            </div>
 
-</main>
+            <div class="summary-total">
+                <span>Total</span>
+                <span>$224.50</span>
+            </div>
+        </section>
+    </main>
 
+    <footer class="footer-action">
+        <button class="btn-primary-full">Pagar $224.50</button>
+    </footer>
+
+    <script>lucide.createIcons();</script>
 </body>
 </html>
