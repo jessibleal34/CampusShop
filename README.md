@@ -1,8 +1,11 @@
 # CampusShop - E-commerce Mobile First
-CampusShop es una aplicación web de comercio electrónico diseñada con un enfoque Mobile-First. El objetivo principal es ofrecer 
-una experiencia de usuario fluida, limpia y moderna para la compra de artículos universitarios, optimizada para dispositivos 
-móviles pero totalmente funcional en escritorio.
-#Tabla de Contenido
+CampusShop es una aplicación web de comercio electrónico diseñada con un enfoque Mobile-First. El objetivo principal es ofrecer una experiencia de usuario fluida, limpia y moderna para la compra de prendas de vestir, optimizada para dispositivos móviles pero totalmente funcional en escritorio.
+Un e-commerce maquetado es como hablar de un prototipo de alta fidelidad. Es una representación visual y estructural completa de una tienda virtual, pero sin la lógica de procesamiento de datos en el fondo
+
+<img width="252" height="700" alt="Captura de pantalla 2026-04-13 232854" src="https://github.com/user-attachments/assets/4c9f6885-5cda-42f7-864f-98a6ecd4e7ed" />
+
+
+# Tabla de Contenido
 Características
 
 Arquitectura del Proyecto
@@ -12,6 +15,7 @@ Tecnologías Utilizadas
 Estructura Semántica
 
 Instalación y Uso
+
  # Características
 Interfaz Mobile-First: Diseño pensado para el pulgar del usuario, con botones grandes y navegación accesible.
 
@@ -70,6 +74,8 @@ Para este proyecto, se evitó el uso excesivo de <div> y se optó por una estruc
 <article>: Utilizado para cada tarjeta de producto e ítem del historial, tratándolos como entidades independientes.
 
 <footer>: Usado para fijar botones de acción importantes como "Proceder al Pago".
+ 
+
 
 # Instalación y Uso
 Clonar el repositorio:
