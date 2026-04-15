@@ -26,23 +26,22 @@ Navegación Intuitiva: Barra de navegación inferior (Bottom Nav) persistente pa
 # Arquitectura del Proyecto
 El proyecto sigue una estructura de archivos organizada para separar las responsabilidades del diseño:
 
-Plaintext
 CampusShop/
-├── css/
-│   ├── base.css       # Variables (colores, fuentes) y reseteo.
-│   ├── layout.css     # Estructura (Main, Header, Grid).
-│   ├── components.css # Elementos reutilizables (Botones, Tarjetas, Badges).
-│   └── responsive.css # Ajustes específicos para pantallas grandes.
-├── img/               # Recursos visuales (JPG, PNG, SVG).
-├── index.html         # Página de Catálogo (Principal).
-├── carrito.html       # Vista de producto individual.
-├── catalogo.html       # Resumen de compra.
-├── checkout.html       # Historial de órdenes.
-└── historial.html        # Información del usuario.
-|__ index.html
-|__ perfil.html
-|__ producto.html
-|__ vacio
+> css/
+  - base.css       # Variables (colores, fuentes) y reseteo.
+  - layout.css     # Estructura (Main, Header, Grid).
+  -  components.css # Elementos reutilizables (Botones, Tarjetas, Badges).
+  -  responsive.css # Ajustes específicos para pantallas grandes.
+> img/               # Recursos visuales (JPG, PNG, SVG).
+> index.html         # Página de Catálogo (Principal)
+  - carrito.html       # Vista de producto individual.
+  - catalogo.html       # Resumen de compra.
+  - checkout.html       # Historial de órdenes.
+  -  historial.html        # Información del usuario.
+  -  index.html
+  -  perfil.html
+  - producto.html
+   - vacio.html
 
 # Tecnologías Utilizadas
 HTML5: Uso de etiquetas semánticas para SEO y accesibilidad.
