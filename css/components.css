@@ -453,19 +453,26 @@
 .profile-header {
     text-align: center;
 }
-
+/* foto de perfil */
 .profile-header__avatar {
     width: 120px;
     height: 120px;
     background-color: var(--avatar-bg);
     border: 4px solid #cce3d8;
     border-radius: 50%;
-    margin: 0 auto 15px;
+    margin: 0 auto ;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    
 }
-
+.avatar-img {
+    width: 100%;            /* La imagen ocupa todo el ancho del círculo */
+    height: 100%;           /* La imagen ocupa todo el alto del círculo */
+    object-fit: cover;      /* ¡MUY IMPORTANTE! Evita que la cara se vea estirada */
+    display: block;
+}
 .avatar-icon {
     width: 60px;
     height: 60px;
