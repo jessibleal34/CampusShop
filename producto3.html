@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Product-jean</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <header class="header-simple">
+        <div class="header-simple__container">
+            <i data-lucide="arrow-left" class="icon"></i>
+            <h1 class="header-simple__title">Detalles del Producto</h1>
+            <i data-lucide="shopping-cart" class="icon"></i>
+        </div>
+    </header>
+
+    <main class="product-detail">
+        <section class="product-gallery">
+            <div class="product-gallery__main">
+                <img src="img/JeanClasicoMujer.jpg" alt="Chaqueta de Cuero Classica">
+            </div>
+        </section>
+
+        <section class="product-info">
+            <h2 class="product-info__title">Jean Clasico de Dama</h2>
+            <span class="product-info__price">$100.000</span>
+            <p class="product-info__description">
+               jean clasico, tiro alto, azul oscuro, silueta ajustada. disponible todas la tallas
+            </p>
+
+            <div class="size-selector">
+                <span class="size-selector__label">Talla</span>
+                <div class="size-selector__options">
+                    <button class="btn-size">S</button>
+                    <button class="btn-size btn-size--active">M</button>
+                    <button class="btn-size">L</button>
+                </div>
+            </div>
+             <a href="carrito.html">
+            <button class="btn-primary-full btn--add-to-cart">Agregar al carrito</button>
+             </a>
+        </section>
+
+        <section class="related-products">
+            <h3 class="related-products__title">Productos Relacionados</h3>
+            <div class="related-products__grid">
+                <div class="mini-card">
+                    <div class="mini-card__img"><img src="img/chaqueta.jpeg" alt=""></div>
+                    <h4> Chaqueta de cuero</h4>
+                    <span>$100.000</span>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card__img"><img src="img/JeanClasicoMujer.jpg" alt=""></div>
+                    <h4>Jean Clasico Dama</h4>
+                    <span>$100.000</span>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card__img"><img src="img/zapatoDama.jpg" alt=""></div>
+                    <h4>Zapatilla Dama</h4>
+                    <span>$120.000</span>
+                </div>
+            </div>
+        </section>
+    </main>
+     <nav class="bottom-nav">
+        <div class="bottom-nav__item">
+            <i data-lucide="home"></i>
+            <span>Inicio</span>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="layout-grid"></i>
+            <a href="catalogo.html">
+            <span>Catalogo</span>
+            </a>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="shopping-cart"></i>
+            <a href="carrito.html">
+            <span>Carrito</span>
+            </a>
+        </div>
+        <div class="bottom-nav__item bottom-nav__item--active">
+            <i data-lucide="package"></i>
+            <a href="index.html">
+            <span>CampusShop</span>
+            </a>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="user"></i>
+            <a href="perfil.html">
+            <span>Perfil</span>
+            </a>
+        </div>
+    </nav>
+
+    
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
