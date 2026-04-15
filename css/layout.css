@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* max-width: 500px; */
+  
 }
 
 /* GRID GENERAL */
@@ -174,10 +174,10 @@ section {
 .empty-state__content {
     max-width: 320px;
 }
-
+/* finalizar compra siempre queda a la vista aunque haga scroll */
 .footer-action {
     position: fixed;
-    bottom: 0;
+    bottom:calc(40px + 0px);
     width: 100%;
     padding: 20px;
     background: var(--white);

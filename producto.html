@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>CampusShop</title>
+  <title>Producto</title>
 
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
@@ -22,7 +22,7 @@
     <main class="product-detail">
         <section class="product-gallery">
             <div class="product-gallery__main">
-                <img src="sudadera-grande.jpg" alt="Sudadera Campus Classic">
+                <img src="img/chaqueta.jpeg" alt="Chaqueta de Cuero Classica">
             </div>
         </section>
 
@@ -41,31 +41,64 @@
                     <button class="btn-size">L</button>
                 </div>
             </div>
-
+             <a href="carrito.html">
             <button class="btn-primary-full btn--add-to-cart">Agregar al carrito</button>
+             </a>
         </section>
 
         <section class="related-products">
             <h3 class="related-products__title">Productos Relacionados</h3>
             <div class="related-products__grid">
                 <div class="mini-card">
-                    <div class="mini-card__img"><img src="camisa.jpg" alt=""></div>
-                    <h4>Camiseta Básica</h4>
-                    <span>$19.99</span>
+                    <div class="mini-card__img"><img src="img/Camisa de Mujer.jpg" alt=""></div>
+                    <h4> Camisa Dama</h4>
+                    <span>$70.000</span>
                 </div>
                 <div class="mini-card">
-                    <div class="mini-card__img"><img src="gorra.jpg" alt=""></div>
-                    <h4>Gorra Universitaria</h4>
-                    <span>$24.99</span>
+                    <div class="mini-card__img"><img src="img/JeanClasicoMujer.jpg" alt=""></div>
+                    <h4>Jean Clasico Dama</h4>
+                    <span>$100.000</span>
                 </div>
                 <div class="mini-card">
-                    <div class="mini-card__img"><img src="mochila.jpg" alt=""></div>
-                    <h4>Mochila Explorer</h4>
-                    <span>$59.99</span>
+                    <div class="mini-card__img"><img src="img/zapatoDama.jpg" alt=""></div>
+                    <h4>Zapatilla Dama</h4>
+                    <span>$120.000</span>
                 </div>
             </div>
         </section>
     </main>
+     <nav class="bottom-nav">
+        <div class="bottom-nav__item">
+            <i data-lucide="home"></i>
+            <span>Inicio</span>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="layout-grid"></i>
+            <a href="catalogo.html">
+            <span>Catalogo</span>
+            </a>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="shopping-cart"></i>
+            <a href="carrito.html">
+            <span>Carrito</span>
+            </a>
+        </div>
+        <div class="bottom-nav__item bottom-nav__item--active">
+            <i data-lucide="package"></i>
+            <a href="index.html">
+            <span>CampusShop</span>
+            </a>
+        </div>
+        <div class="bottom-nav__item">
+            <i data-lucide="user"></i>
+            <a href="perfil.html">
+            <span>Perfil</span>
+            </a>
+        </div>
+    </nav>
+
+    
 
     <script>lucide.createIcons();</script>
 </body>
