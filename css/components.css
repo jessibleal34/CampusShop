@@ -64,9 +64,10 @@
   position: absolute;
   top: 8px;
   right: 8px;
-  background: white;
+  background: rgb(241, 19, 19);
   border-radius: 50%;
   padding: 6px;
+
 }
 
 .product h3 {
